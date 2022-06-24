@@ -20,6 +20,12 @@ function DinoConstr(species, weight, height, diet, where, when, fact) {
 
 // NOTE: Weight in JSON file is in lbs, height in inches.
 
+function lbsConverterToKg(lbs) {
+  return (lbs * 0.453592).toFixed(2);
+}
+function inchConverterToCm(inches) {
+  return (inches * 2.54).toFixed(2);
+}
 // Create Dino Compare Method 2
 // NOTE: Weight in JSON file is in lbs, height in inches.
 
