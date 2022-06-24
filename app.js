@@ -13,7 +13,9 @@ function DinoConstr(species, weight, height, diet, where, when, fact) {
 // Create Human Object
 
 // Use IIFE to get human data from form
-
+(function humanData() {
+  console.log("IIFE");
+})();
 // Create Dino Compare Method 1
 
 // NOTE: Weight in JSON file is in lbs, height in inches.
